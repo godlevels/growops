@@ -34,7 +34,7 @@ const Download = () => {
 
                         <button className='download-btn'>
                             <AiOutlineApple color='white' size={30} className='apple'/>
-                            <div className='apple_desc'>
+                            <div className='apple_desc'> 
                                 <h1>Download on</h1>
                                 <h2>App Store</h2>
                             </div>

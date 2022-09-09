@@ -11,7 +11,7 @@ const About = () => {
         duration: 1000,
     });
 }, [])
-
+ 
 
   return (
     <section id='aboutus'>

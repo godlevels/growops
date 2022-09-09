@@ -43,7 +43,7 @@ const Hero = ({lightBg, lightText, lightTextDesc, headline, description, imgStar
                         <BsMouse color='#fff' size={15} className="mouse"/>
                     </Link>
                 </div>
-            </div>
+            </div> 
         </div>
     </div>
   )

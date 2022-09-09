@@ -34,7 +34,7 @@
     font-size: 24px;
     font-weight: 400;
     margin: 1rem 0;
-}
+} 
 
 .about-right img{
     flex: 1;
@@ -46,6 +46,12 @@
 
 @media screen  and (max-width: 600px){
     .about-content {
-        flex-direction: column-reverse;
+        flex-direction: column;
+    }
+
+    .about-right img{
+        flex: 1;
+        margin-left: 2rem;
+        width: 80%;
     }
 } 
