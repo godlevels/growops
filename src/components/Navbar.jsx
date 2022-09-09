@@ -106,7 +106,7 @@ const Navbar = () => {
                             </Link>
                         )}
                     </li>  */}
-                </ul>
+                </ul> 
             </div>
         </div>
 
