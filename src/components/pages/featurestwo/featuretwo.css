@@ -1,0 +1,25 @@
+.featuretwo{
+    display: flex;
+    align-items: flex-start;
+    margin: 2rem 0;
+}
+
+.featuretwo-icon{
+    position: relative;
+    margin: 0 1.5rem;
+    margin-top: 1rem;
+}
+
+.innertwo-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.featuretwo-text p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #808080;
+    line-height: 1.4;
+}

@@ -1,0 +1,42 @@
+#blog{
+    padding: 2rem 0;
+    background-color: rgba(200, 196, 196, 0.2);
+}
+
+.blog-up{
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.blog-up h1{
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #3BE0A8;
+}
+
+.blog-up h2{
+    font-size: 45px;
+    padding-top: 1rem;
+    font-weight: 500;
+    color: #404040;
+    text-transform: capitalize;
+}
+
+.blog-line {
+    background-color: #3BE0A8;
+    margin: .5rem 33rem 0 33rem;
+    width: 2rem;
+    height: .3rem;
+}
+
+
+
+
+
+
+@media screen  and (max-width: 600px){
+    .blog-line{
+        margin: .5rem 12rem 0 12rem;   
+    }
+}  

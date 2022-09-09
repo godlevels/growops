@@ -1,0 +1,25 @@
+.feature{
+    display: flex;
+    align-items: flex-start;
+    margin: 2rem 0;
+}
+
+.feature-icon{
+    position: relative;
+    margin: 0 1.5rem;
+    margin-top: 1rem;
+}
+
+.inner-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.feature-text p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #808080;
+    line-height: 1.4;
+}

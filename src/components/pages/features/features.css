@@ -1,0 +1,44 @@
+.features-content{
+    display: flex;
+    justify-content: center;
+}
+
+/* .features-left{ 
+    flex: 1;
+    text-align: center;
+} */
+
+.features-right{
+    flex: 1;
+    text-align: center;
+}
+
+.features-right img{
+    width: 85%;
+}
+
+.features-left{
+    flex: 1;
+} 
+
+.feature-title{
+    display: flex;
+    margin-top: 1.5rem;
+    font-size: 28px;
+    font-weight: 500;
+    color: #074028;
+}
+ 
+.feature-line{
+    margin-top: .5rem;
+    margin-right: .5rem;
+    width: .2rem;
+    height: 3rem;
+    background: #3BE0A8;
+}
+
+@media screen  and (max-width: 600px){
+    .features-content {
+        flex-direction: column-reverse;
+    }
+} 
